@@ -85,7 +85,7 @@ export default function HistoryPriceChart({ symbol }: { symbol: string }) {
 
   useEffect(() => {
     getHistoricalPriceData();
-  }, [dateRange]);
+  });
 
   return (
     <Card className="my-12">

@@ -10,10 +10,10 @@ export default function CustomStock404() {
         Oops! Stock Symbol Not Found
       </p>
       <p className="mb-8 text-lg text-gray-500">
-        It looks like the stock symbol you're looking for isn't available.
-        Please check the symbol and try again, or use our search feature to find
-        the stock you’re interested in. If you believe this is an error, feel
-        free to contact our support team for assistance.
+        It looks like the stock symbol you&apos;re looking for isn&apos;t
+        available. Please check the symbol and try again, or use our search
+        feature to find the stock you&apos;re interested in. If you believe this
+        is an error, feel free to contact our support team for assistance.
       </p>
       <Link href="/" className="mb-4 inline-block text-sm" prefetch={false}>
         <Button variant="default">Go back home</Button>
