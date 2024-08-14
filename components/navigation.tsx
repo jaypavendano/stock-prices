@@ -41,7 +41,7 @@ export default function Navigation() {
     return () => {
       clearTimeout(handler);
     };
-  });
+  }, [searchQuery]); // eslint-disable-line
 
   const handleClose = () => {
     setIsOpen(false);

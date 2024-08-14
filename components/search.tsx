@@ -36,7 +36,7 @@ export default function SearchBar() {
     return () => {
       clearTimeout(handler); // Clear the timer if `searchQuery` changes before 600ms.
     };
-  });
+  }, [searchQuery]); // eslint-disable-line
 
   return (
     <div className="space-y-2 relative">
